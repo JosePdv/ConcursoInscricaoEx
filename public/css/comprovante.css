@@ -1,0 +1,43 @@
+.fundo {
+    background-color: #ffd280;
+}
+
+.content {
+    bottom: 0;
+    padding: 0px 0;
+}
+
+.rodape {
+   
+    
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #fee6bc;
+
+
+}
+
+.rodape p {
+    color: black;
+}
+
+
+.copy {
+   
+    
+    width: 100%;
+    padding: 5px 0;
+    background-color: #ffd280;
+
+
+}
+
+.copy p {
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+

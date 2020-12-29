@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost/sasdh/public/site/inscricao -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="LW5embkQ5c0wGhvfufwqXoBo85BzCFKRTTuZjVBN">
+
+    <title> SASDH</title>
+
+    <!-- Scripts -->
+<!-- <script src="http://localhost/sasdh/public/js/app.js" defer></script> -->
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+    <link href="./supervisorpfl_files/css" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="./supervisorpfl_files/app.css" rel="stylesheet">
+    <link href="./supervisorpfl_files/insert.css" rel="stylesheet">
+    <link rel="icon" href="http://localhost/sasdh/public/site/img/icon.png" type="image/icon type">
+</head>
+
+<body>
+<div id="app">
+    <nav class="navbar navbar-expand-md navbar-light fundo shadow-sm">
+
+        <div class="container ">
+            <div class=" col col-dm-12 text-center">
+                <a style="color: black;" href="http://localhost/sasdh/public">
+
+                    <h3>Secretaria Municipal de Assistência Social
+                    e Direitos Humanos</h3>
+                </a>
+                <p>Processo Seletivo Simplificado para Contratação e Servidores Temporários - Edital 01/2020</p>
+                <p>Anexo IV - Formulário de Inscrição</p>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-4">
+        
+    <script src="./supervisorpfl_files/form.js"></script>
+
+    <form method="POST" action="http://localhost/sasdh/public/formulario/store" enctype="multipart/form-data">
+        <input type="hidden" name="_token" value="LW5embkQ5c0wGhvfufwqXoBo85BzCFKRTTuZjVBN">        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header fundo font-weight-bold">Dados Pessoais</div>
+
+                        <div class="card-body">
+
+                            <div class="form-group row">
+                                <label for="email" class="col-md-4 col-form-label text-md-right">Nome: </label>
+
+                                <div class="col-md-8">
+                                    <input id="nome" type="text" class="form-control " name="nome" value="" autocomplete="nome" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="iescolaridade" class="col-md-4 col-form-label text-md-right">Escolaridade: </label>
+
+                                <div class="col-md-6">
+                                    <select name="escolaridade" id="iescolaridade" class="custom-select">
+                                        <option value="0">
+                                            Selecione uma opção
+                                        </option>
+                                        <option value="1">
+                                            Ensino Fundamental
+                                        </option>
+                                        <option value="2">
+                                            Ensino Médio
+                                        </option>
+                                        <option value="3">
+                                            Ensino Superior
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="cargo" class="col-md-4 col-form-label text-md-right">Cargos: </label>
+                                <div class="col-md-6">
+                                    <select name="cargo" id="cargo" class="custom-select">
+                                        <option value="0">
+                                            Selecione uma opção
+                                        </option>
+                                        <option value="1" class="divCargos1" hidden="hidden">
+                                            Motorista
+                                        </option>
+                                        <option value="2" class="divCargos2" hidden="hidden">
+                                            Agente Social
+                                        </option>
+                                        <option value="3" class="divCargos2" hidden="hidden">
+                                            Visitador do Programa Criança Feliz
+                                        </option>
+                                        <option value="4" class="divCargos3">
+                                            Psicólogo
+                                        </option>
+                                        <option value="5" class="divCargos3">
+                                            Assistente Social
+                                        </option>
+                                        <option value="6" class="divCargos3">
+                                            Pedagogo
+                                        </option>
+                                        <option value="7" class="divCargos3">
+                                            Coordenador do Programa Criança Feliz
+                                        </option>
+                                        <option value="8" class="divCargos3">Supervisor do
+                                            Programa Criança Feliz
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="data_nascimento" class="col-md-4 col-form-label text-md-right">Data de
+                                    Nascimento: </label>
+
+                                <div class="col-md-3">
+                                    <input id="data_nascimento" type="text" class="date form-control " name="data_nascimento" value="" autocomplete="data_nascimento" autofocus="" maxlength="10">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="estado_civil" class="col-md-4 col-form-label text-md-right">Estado Civil:
+                                </label>
+
+                                <div class="col-md-3">
+                                    <select name="estado_civil" class="custom-select">
+                                        <option value="1">
+                                            Solteiro(a)
+                                        </option>
+                                        <option value="2">
+                                            Casado(a)
+                                        </option>
+                                        <option value="3">
+                                            Divorciado(a)
+                                        </option>
+                                        <option value="4">
+                                            Viuvo(a)
+                                        </option>
+                                        <option value="5">
+                                            União Estável
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="sexo" class="col-md-4 col-form-label text-md-right">Sexo: </label>
+
+                                <div class="col-md-3">
+                                    <select name="sexo" class="custom-select">
+                                        <option value="f">
+                                            Feminino
+                                        </option>
+                                        <option value="m">
+                                            Masculino
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="rg" class="col-md-4 col-form-label text-md-right">RG: </label>
+
+                                <div class="col-md-4">
+                                    <input id="rg" type="text" class="form-control " name="rg" value="" autocomplete="rg" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="rg_org" class="col-md-4 col-form-label text-md-right">Orgão expedidor RG:
+                                </label>
+
+                                <div class="col-md-2">
+                                    <input id="rg_org" type="text" class="form-control " name="rg_org" value="" autocomplete="rg_org" autofocus="">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="cpf" class="col-md-4 col-form-label text-md-right">CPF: </label>
+
+                                <div class="col-md-4">
+                                    <input id="cpf" type="text" class="cpf form-control " name="cpf" value="" autocomplete="cpf" autofocus="" maxlength="14">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="nome_mae" class="col-md-4 col-form-label text-md-right">Nome da
+                                    Mãe: </label>
+
+                                <div class="col-md-8">
+                                    <input id="nome_mae" type="text" class="form-control " name="nome_mae" value="" autocomplete="nome_mae" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="telefone" class="col-md-4 col-form-label text-md-right">Telefone: </label>
+
+                                <div class="col-md-4">
+                                    <input id="telefone" type="text" class="phone_with_ddd form-control " name="telefone" value="" autocomplete="telefone" autofocus="" maxlength="15">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="email" class="col-md-4 col-form-label text-md-right">E-Mail: </label>
+
+                                <div class="col-md-8">
+                                    <input id="email" type="email" class="form-control " name="email" value="" autocomplete="email" autofocus="">
+
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header  fundo font-weight-bold">Anexos Documentos Pessoais(Só é valido arquivo
+                            .pdf)
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <label for="anexocpf" class="col-md-4 col-form-label text-md-right">Cadastro de Pessoa
+                                    Física – CPF: </label>
+                                <div class="col-md-8">
+                                    <input id="anexocpf" type="file" class="form-control " name="anexocpf" value="" autocomplete="anexocpf" autofocus="">
+
+                                                                    </div>
+                                <label for="anexorg" class="col-md-4 col-form-label text-md-right">Documento Oficial de
+                                    Identidade Com Foto: </label>
+                                <div class="col-md-8">
+                                    <input id="anexorg" type="file" class="form-control " name="anexorg" value="" autocomplete="anexorg" autofocus="">
+
+                                                                    </div>
+                                <label for="anexocurriculum" class="col-md-4 col-form-label text-md-right">Curriculum
+                                    Vitae: </label>
+                                <div class="col-md-8">
+                                    <input id="anexocurriculum" type="file" class="form-control " name="anexocurriculum" value="" autocomplete="anexocurriculum" autofocus="">
+
+                                                                    </div>
+                                <label for="anexoescolaridade" class="col-md-4 col-form-label text-md-right">Comprovante
+                                    de
+                                    Escolaridade</label>
+                                <div class="col-md-8">
+                                    <input id="anexoescolaridade" type="file" class="form-control " name="anexoescolaridade" value="" autocomplete="anexoescolaridade" autofocus="">
+
+                                                                    </div>
+                                <label for="anexoconselho" class="col-md-4 col-form-label text-md-right divConselho">Carteira Do
+                                    Conselho</label>
+                                <div class="col-md-8 divConselho">
+                                    <input id="anexoconselho" type="file" class="form-control " name="anexoconselho" value="" autocomplete="anexoconselho" autofocus="">
+
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header  fundo font-weight-bold divanexosFormacao">Anexos Formação
+                            Acadêmica(Só é valido arquivo .pdf)
+                        </div>
+                        <div class="card-body divEnsFundamentalMedio" hidden="hidden">
+                            <div class="form-group row">
+                                <label for="email" class="col-md-4 col-form-label text-md-right divMedio" hidden="hidden">
+                                    Graduação
+                                </label>
+                                <label for="email" class="col-md-4 col-form-label text-md-right divFundamental" hidden="hidden">
+                                    Diploma do Ensino Médio ou Graduação
+                                </label>
+
+                                <div class="col-md-8">
+                                    <input id="anexograduacao" type="file" class="form-control " name="anexograduacao" value="" autocomplete="anexograduacao" autofocus="">
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row divGraduacao3">
+                            <label for="anexodoutorado" class="col-md-4 col-form-label text-md-right">Pós-graduação
+                                (Stricto
+                                Sensu) - Doutorado</label>
+                            <div class="col-md-8">
+                                <input id="anexodoutorado" type="file" class="form-control " name="anexodoutorado" value="" autocomplete="anexodoutorado" autofocus="">
+
+                                                            </div>
+
+
+                            <label for="anexomestrado" class="col-md-4 col-form-label text-md-right">Pós-graduação
+                                (Stricto
+                                Sensu) - Mestrado</label>
+                            <div class="col-md-8">
+
+                                <input id="anexomestrado" type="file" class="form-control " name="anexomestrado" value="" autocomplete="anexomestrado" autofocus="">
+
+                                                            </div>
+
+                            <label for="anexoposgraduacao1" class="col-md-4 col-form-label text-md-right">Pós-graduação
+                                (Lato
+                                Sensu) - Especialização 01:</label>
+                            <div class="col-md-8">
+                                <input id="anexoposgraduacao1" type="file" class="form-control " name="anexoposgraduacao1" value="" autocomplete="anexoposgraduacao1" autofocus="">
+
+                                                            </div>
+                            <label for="anexoposgraduacao2" class="col-md-4 col-form-label text-md-right">Pós-graduação
+                                (Lato
+                                Sensu) - Especialização 02:</label>
+                            <div class="col-md-8">
+
+                                <input id="anexoposgraduacao2" type="file" class="form-control " name="anexoposgraduacao2" value="" autocomplete="anexoposgraduacao2" autofocus="">
+
+                                                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header  fundo font-weight-bold">Anexos Qualificação e Aperfeiçoamento
+                            Profissional(Só é valido arquivo .pdf)
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <label for="anexoqualific1" class="col-md-4 col-form-label text-md-right">Qualificação e
+                                    Aperfeiçoamento 01: </label>
+                                <div class="col-md-8">
+
+                                    <input id="anexoqualific1" type="file" class="form-control " name="anexoqualific1" value="" autocomplete="anexoqualific1" autofocus="">
+
+                                                                    </div>
+
+                                <label for="anexoqualific2" class="col-md-4 col-form-label text-md-right">Qualificação e
+                                    Aperfeiçoamento 02: </label>
+                                <div class="col-md-8">
+
+                                    <input id="anexoqualific2" type="file" class="form-control " name="anexoqualific2" value="" autocomplete="anexoqualific2" autofocus="">
+
+                                                                    </div>
+                                <label for="anexoqualific3" class="col-md-4 col-form-label text-md-right">Qualificação e
+                                    Aperfeiçoamento 03: </label>
+                                <div class="col-md-8">
+
+                                    <input id="anexoqualific3" type="file" class="form-control " name="anexoqualific3" value="" autocomplete="anexoqualific3" autofocus="">
+
+                                    
+                                </div>
+                                <label for="anexoqualific4" class="col-md-4 col-form-label text-md-right">Qualificação e
+                                    Aperfeiçoamento 04: </label>
+                                <div class="col-md-8">
+                                    <input id="anexoqualific4" type="file" class="form-control " name="anexoqualific4" value="" autocomplete="anexoqualific4" autofocus="">
+
+                                                                    </div>
+                                <label for="anexoqualific5" class="col-md-4 col-form-label text-md-right">Qualificação e
+                                    Aperfeiçoamento 05: </label>
+                                <div class="col-md-8">
+
+                                    <input id="anexoqualific5" type="file" class="form-control " name="anexoqualific5" value="" autocomplete="anexoqualific5" autofocus="">
+
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header  fundo font-weight-bold">Anexos Experiência na Função(Só é valido
+                            arquivo .pdf)
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <label for="anexoespe1" class="col-md-4 col-form-label text-md-right">Experiência na
+                                    Função
+                                    01: </label>
+                                <div class="col-md-8">
+                                    <input id="anexoespe1" type="file" class="form-control " name="anexoespe1" value="" autocomplete="anexoespe1" autofocus="">
+
+                                    
+                                </div>
+                                <label for="anexoespe2" class="col-md-4 col-form-label text-md-right">Experiência na
+                                    Função
+                                    02: </label>
+                                <div class="col-md-8">
+
+                                    <input id="anexoespe2" type="file" class="form-control " name="anexoespe2" value="" autocomplete="anexoespe2" autofocus="">
+
+                                                                    </div>
+                                <label for="anexoespe3" class="col-md-4 col-form-label text-md-right">Experiência na
+                                    Função 03: </label>
+                                <div class="col-md-8">
+                                    <input id="anexoespe3" type="file" class="form-control " name="anexoespe3" value="" autocomplete="anexoespe3" autofocus="">
+
+                                                                    </div>
+                                <label for="anexoespe4" class="col-md-4 col-form-label text-md-right">Experiência na
+                                    Função 04: </label>
+                                <div class="col-md-8">
+                                    <input id="anexoespe4" type="file" class="form-control " name="anexoespe4" value="" autocomplete="anexoespe4" autofocus="">
+
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center divPne">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header  fundo font-weight-bold">PNE</div>
+
+                        <div class="card-body">
+                            <div class="form-group row">
+
+                                <div class="col-md-12 ">
+                                    <p class="text-justify">
+                                        Deseja participar da reseva
+                                        de vagas destinadas a candidato na condição de pessoa com deficiência, conforme
+                                        previsto
+                                        no Decreto Federal nº 3.298/1999
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="vagas_deficiencia" class="col-md-4 col-form-label text-md-right">Participar:
+                                </label>
+                                <div class="col-md-4">
+                                    <select name="vagas_deficiencia" id="vagas_deficiencia" class="custom-select">
+                                        <option value="0">Não</option>
+                                        <option value="1">Sim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row divTipoDeficiencia" hidden="true">
+                                <label for="tipo_deficiencia" class="col-md-4 col-form-label text-md-right">Tipo de
+                                    deficiência:
+                                </label>
+                                <div class="col-md-4">
+                                    <select name="tipo_deficiencia" class="custom-select">
+                                        <option value="NaoTem">Selecione uma opção</option>
+                                        <option value="Fisica">Física</option>
+                                        <option value="Mental">Mental</option>
+                                        <option value="Auditiva">Auditiva</option>
+                                        <option value="Visual">Visual</option>
+                                        <option value="Multipla">Múltipla</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center divLaudo" hidden="true">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header  fundo font-weight-bold">Anexo Laudo Médico(Só é valido arquivo .pdf)
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group row">
+                                <label for="anexolaudo" class="col-md-4 col-form-label text-md-right">Laudo
+                                    Médico</label>
+                                <div class="col-md-8">
+                                    <input id="anexolaudo" type="file" class="form-control " name="anexolaudo" value="" autocomplete="anexolaudo" autofocus="">
+
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header fundo font-weight-bold">Endereço</div>
+
+                        <div class="card-body">
+
+                            <div class="form-group row">
+                                <label for="cep" class="col-md-4 col-form-label text-md-right">CEP: </label>
+
+                                <div class="col-md-4">
+                                    <input id="cep" type="text" class="cep form-control " name="cep" value="" autocomplete="cep" onblur="pesquisacep(this.value);" autofocus="" maxlength="9">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="uf" class="col-md-4 col-form-label text-md-right">UF: </label>
+
+                                <div class="col-md-4">
+                                    <input id="uf" type="text" class="form-control " name="uf" value="" autocomplete="uf" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="cidade" class="col-md-4 col-form-label text-md-right">Cidade: </label>
+
+                                <div class="col-md-4">
+                                    <input id="cidade" type="text" class="form-control " name="cidade" value="" autocomplete="cidade" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="bairro" class="col-md-4 col-form-label text-md-right">Bairro: </label>
+
+                                <div class="col-md-4">
+                                    <input id="bairro" type="text" class="form-control " name="bairro" value="" autocomplete="bairro" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="rua" class="col-md-4 col-form-label text-md-right">Endereco(Rua/Avenida):
+                                </label>
+
+                                <div class="col-md-4">
+                                    <input id="rua" type="text" class="form-control " name="rua" value="" autocomplete="rua" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="numero" class="col-md-4 col-form-label text-md-right">Numero: </label>
+
+                                <div class="col-md-2">
+                                    <input id="numero" type="text" class="form-control " name="numero" value="" autocomplete="numero" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="complemento" class="col-md-4 col-form-label text-md-right">Complemento: </label>
+
+                                <div class="col-md-8">
+                                    <input id="complemento" type="text" class="form-control " name="complemento" value="" autocomplete="complemento" autofocus="">
+
+                                                                    </div>
+                            </div>
+
+                            <div class="form-group row mb-0">
+                                <div class="col-md-8 offset-md-4">
+                                    <button type="submit" class="btn btn-dark">
+                                        Enviar Dados
+                                    </button>
+                                    <p class="aviso">(Verificar se o cargo esta definido e o arquivos estão em pdf)</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    </main>
+</div>
+<script>
+    $(document).ready(function () {
+        $("body").on('change', "#vagas_deficiencia", function () {
+            var $this = $(this);
+            if ($this.val() == 1) {
+                $("body").find('.divTipoDeficiencia').removeAttr('hidden');
+            } else {
+                $("body").find('.divTipoDeficiencia').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#iescolaridade", function () {
+            var $this = $(this);
+
+            if ($this.val() == 1) {
+                $("body").find('.divCargos1').removeAttr('hidden');
+            } else {
+                $("body").find('.divCargos1').attr('hidden', 'true');
+            }
+
+            if ($this.val() == 2) {
+                $("body").find('.divCargos2').removeAttr('hidden');
+            } else {
+                $("body").find('.divCargos2').attr('hidden', 'true');
+            }
+
+            if ($this.val() == 3) {
+                $("body").find('.divCargos3').removeAttr('hidden');
+            } else {
+                $("body").find('.divCargos3').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#iescolaridade", function () {
+            var $this = $(this);
+
+            if ($this.val() == 2) {
+                $("body").find('.divGraduacao').removeAttr('hidden');
+            } else {
+                $("body").find('.divGraduacao').attr('hidden', 'true');
+            }
+        });
+    });
+
+
+    $(document).ready(function () {
+        $("body").on('change', "#iescolaridade", function () {
+            var $this = $(this);
+
+            if ($this.val() == 3) {
+                $("body").find('.divGraduacao3').removeAttr('hidden');
+            } else {
+                $("body").find('.divGraduacao3').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#iescolaridade", function () {
+            var $this = $(this);
+
+            if ($this.val() == 1 || $this.val() == 2) {
+                $("body").find('.divEnsFundamentalMedio').removeAttr('hidden');
+            } else {
+                $("body").find('.divEnsFundamentalMedio').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#iescolaridade", function () {
+            var $this = $(this);
+
+            if ($this.val() == 1) {
+                $("body").find('.divFundamental').removeAttr('hidden');
+            } else {
+                $("body").find('.divFundamental').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#iescolaridade", function () {
+            var $this = $(this);
+
+            if ($this.val() == 2) {
+                $("body").find('.divMedio').removeAttr('hidden');
+            } else {
+                $("body").find('.divMedio').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#cargo", function () {
+            var $this = $(this);
+
+            if ($this.val() == 4 || $this.val() == 5) {
+                $("body").find('.divConselho').removeAttr('hidden');
+            } else {
+                $("body").find('.divConselho').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#vagas_deficiencia", function () {
+            var $this = $(this);
+
+            if ($this.val() == 1) {
+                $("body").find('.divLaudo').removeAttr('hidden');
+            } else {
+                $("body").find('.divLaudo').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#cargo", function () {
+            var $this = $(this);
+
+            if ($this.val() == 2 || $this.val() == 3 || $this.val() == 4 || $this.val() == 5 ) {
+                $("body").find('.divPne').removeAttr('hidden');
+            } else {
+                $("body").find('.divPne').attr('hidden', 'true');
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("body").on('change', "#iescolaridade", function () {
+            var $this = $(this);
+
+            if ($this.val() == 1 || $this.val() == 2 || $this.val() == 3) {
+                $("body").find('.divanexosFormacao').removeAttr('hidden');
+            } else {
+                $("body").find('.divanexosFormacao').attr('hidden', 'true');
+            }
+        });
+    });
+
+</script>
+<footer class="content">
+
+    <div class="rodape">
+        <p>
+
+            2020 © Prefeitura Municipal de Rio Branco</p>
+
+        <p>Rua Rui Barbosa, 285 - Centro - Rio Branco/AC - CEP: 69.900-901</p>
+
+        <p>Horário de Atendimento: 08h às 17h
+
+        </p><p> Duvidas sobre o edital:(68) 3211-2473 -SASDH</p>
+
+        <p>Problemas Relacionados Com o Site :(68) 3211-3976 DTI</p>
+
+        <p>Email: comissao.sasdh2020@riobranco.ac.gov.br</p>
+
+    </div>
+    <div class="copy">
+        <p class="font-weight-bold font-italic"> Processo seletivo 2020 </p>
+    </div>
+</footer>
+
+
+
+</body></html>

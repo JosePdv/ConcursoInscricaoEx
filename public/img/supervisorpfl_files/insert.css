@@ -1,0 +1,88 @@
+.aviso{
+    color: red;
+}
+.fundo {
+    background-color: #ffd280;
+}
+
+.fundoIn {
+    background-color: #ffd280;
+    width: 100%;
+}
+
+.fundoIn:hover{
+    background-color: black;
+    color:white;
+}
+
+.fundDif{
+    background-color: #38c172;
+    width: 100%;
+    color: #fff;
+}
+
+.fundInd{
+    background-color: #c51f1a;
+    width: 100%;
+    color: #fff;
+}
+
+.fundoPontu{
+    background-color: #ffd280;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.content {
+    bottom: 0;
+    padding: 0px 0;
+}
+
+
+.fixar {
+    position: fixed;
+width: 20%;
+    right: 0px;
+    top: 10%;
+    z-index: 1;
+}
+ .av{
+     background-color: #ffd280;
+     width: 100%;
+ }
+
+
+ .rodape {
+
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #fee6bc;
+
+
+}
+
+.rodape p {
+    color: black;
+}
+
+
+.copy {
+
+    width: 100%;
+    padding: 5px 0;
+    background-color: #ffd280;
+
+
+}
+
+.copy p {
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.alinha {
+    text-align: right;
+}

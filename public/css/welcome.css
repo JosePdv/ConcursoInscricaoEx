@@ -1,0 +1,103 @@
+img:hover{
+opacity: 60%;
+}
+
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+         
+            margin: 0;
+        }
+
+        .full-height {
+      
+        }
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        .content {
+         margin-top: 4em;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 84px;
+        }
+
+        .links  a {
+             color: black;
+            padding: 0 25px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+         
+        }
+        .links a:hover{
+            color: white;
+
+        }
+
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+
+.cab{
+    width: 100%;
+background-color: #ffd280 ;
+
+}
+.texto h3{
+        font-weight: bold;
+    }
+.texto{
+margin-right: 40%;
+margin-left: 18%;
+}
+
+
+
+
+
+
+
+
+.rodape{
+width: 100%;
+   padding: 1px 0;
+ background-color:#fee6bc;
+
+}
+.rodape p{
+    color: black;
+}
+    .copy{
+
+  width: 100%;
+  padding: 5px 0;
+ background-color:#ffd280;
+ 
+}
+.copy p{
+   
+  font-size: 14px;
+  font-weight: bold;
+}
+
